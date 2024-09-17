@@ -12,3 +12,12 @@ export interface ITypographyProps {
   className?: string;
   onClick?(event: any): void;
 }
+
+export interface IBreadCrumbItem {
+  title: string;
+  link?: string;
+}
+
+export interface IBreadCrumbProviderProps {
+  children: ReactNode;
+}
