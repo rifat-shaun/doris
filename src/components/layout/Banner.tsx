@@ -8,6 +8,7 @@ const Banner = () => {
         variant={TYPOGRAPHY_VARIANT.LIGHT}
         className="text-white font-marcellus"
       >
+        {/* TODO: Replace this text from DB, Dynamic text render */}
         COMPLIMENTARY SHIPPING ON ALL ORDERS OVER £200
       </Typography>
     </div>
