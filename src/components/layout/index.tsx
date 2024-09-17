@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+import Banner from "./Banner";
 
 const Layout = () => {
   return (
-    <div className="relative min-h-screen">
-      Hello From layout
+    <div className="min-h-screen">
+      <Banner />
       <Outlet />
     </div>
   );
