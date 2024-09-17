@@ -23,6 +23,7 @@
     "react-scripts": "5.0.1",
     "typeface-dosis": "^1.1.13",
     "typeface-hind": "^1.1.13",
+    "typeface-marcellus": "^1.1.13",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
