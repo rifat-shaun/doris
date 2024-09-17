@@ -14,13 +14,19 @@ const Breadcrumbs = () => {
   const renderWithLink = (breadcrumb: IBreadCrumbItem) => {
     return (
       <Link {...getLinkProps(breadcrumb)}>
-        <Typography className="uppercase">{breadcrumb.title}</Typography>
+        <Typography className="font-marcellus uppercase">
+          {breadcrumb.title}
+        </Typography>
       </Link>
     );
   };
 
   const renderWithoutLink = (breadcrumb: IBreadCrumbItem) => {
-    return <Typography className="uppercase">{breadcrumb.title}</Typography>;
+    return (
+      <Typography className="font-marcellus uppercase">
+        {breadcrumb.title}
+      </Typography>
+    );
   };
 
   return (
