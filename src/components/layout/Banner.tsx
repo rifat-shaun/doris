@@ -1,4 +1,4 @@
-import { TYPOGRAPHY_SIZE, TYPOGRAPHY_VARIANT } from "../../constants/base";
+import { TYPOGRAPHY_VARIANT } from "../../constants/base";
 import { Typography } from "../common";
 
 const Banner = () => {
